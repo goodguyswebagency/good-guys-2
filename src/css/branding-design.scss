@@ -1,0 +1,21 @@
+// Importing from a subfolder
+// @import 'components/buttons';
+
+// Importing from a different folder
+// @import '../assets/variables';
+
+@import 'components/heading';
+
+
+.design{
+  &_bottom{
+    .design_block:last-child{
+      border-bottom: 0px;
+    }
+  }
+}
+
+#wow-text {
+  color: #146ef5;
+}
+

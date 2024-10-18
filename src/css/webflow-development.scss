@@ -1,0 +1,32 @@
+// Importing from a subfolder
+// @import 'components/buttons';
+
+// Importing from a different folder
+// @import '../assets/variables';
+
+@import 'components/heading';
+
+
+.dev-why{
+  .swiper-slide:not(:first-child){
+    border-left: 1px solid black;
+    @media screen and (max-width: 991px){
+      border-left: none;
+    }
+  }  
+  .swiper-slide:nth-child(2){
+    @media screen and (max-width: 991px){
+      border-left: 1px solid black;
+    }
+    @media screen and (max-width: 767px){
+      border-left: none;
+    }
+  } 
+  .swiper-slide:last-child{
+    border-bottom: none;
+  }
+}
+
+.dark-background{
+  background-color: #212121;
+}

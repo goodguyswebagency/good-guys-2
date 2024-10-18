@@ -1,0 +1,11 @@
+.cal-div{
+  @media screen and (max-width: 991px){
+    max-height: none !important;
+  }
+}
+
+cal-inline{
+	display: flex;
+  align-items: center;
+  overflow: auto;
+}

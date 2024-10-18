@@ -1,0 +1,14 @@
+// Importing from a subfolder
+// @import 'components/buttons';
+
+// Importing from a different folder
+// @import '../assets/variables';
+
+@import 'components/heading';
+
+
+.section_ads-featured-work{
+  .ads-featured-work_card:first-of-type{
+    border-left: none;
+  }   
+}
