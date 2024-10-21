@@ -37,7 +37,7 @@ function setRelAttribute() {
   var elems = document.body.getElementsByTagName('a');
 	for (var i = 0; i < elems.length; i++) {
 		var elem = elems[i]
-		var re = /www.goodguys.nu/
+		var re = /www.goodguys.se/
 		var isInternal = re.test(elem.href)
 		if (!isInternal) {
 		elem.rel= 'noopener noreferrer nofollow'
