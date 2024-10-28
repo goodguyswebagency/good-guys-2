@@ -16,7 +16,7 @@ import './animations/wordBackgroundHighlight.js'
 import './animations/scrubOpacity.js'
 import './animations/heroImageFlip.js'
 
-console.log('aaa')
+
 
 
 const videoContainer = document.querySelector('.home-hero_video');
