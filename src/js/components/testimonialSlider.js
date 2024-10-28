@@ -96,7 +96,7 @@ overlays.forEach(overlay => {
 
 
 // Select all video source elements with a data-src attribute
-const videoSources = document.querySelectorAll('video source[data-src]');
+const videoSources = document.querySelectorAll('.testimonial-slide_media-video');
 
 // Loop through each source and set the src attribute
 videoSources.forEach(source => {
