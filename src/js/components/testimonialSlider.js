@@ -95,5 +95,24 @@ overlays.forEach(overlay => {
 
 
 
+// Select all video source elements with a data-src attribute
+const videoSources = document.querySelectorAll('video source[data-src]');
+
+// Loop through each source and set the src attribute
+videoSources.forEach(source => {
+  source.setAttribute('src', source.getAttribute('data-src'));
+  source.removeAttribute('data-src'); // Clean up the data attribute
+});
+
+// Load each video to apply the new source
+const videos = document.querySelectorAll('video');
+videos.forEach(video => {
+  video.load(); // Load video sources after setting src attributes
+});
+
+
+
+
+
 
 
