@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 // ScrollTrigger.normalizeScroll(true);
